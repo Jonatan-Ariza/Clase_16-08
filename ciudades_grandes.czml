@@ -1,0 +1,75 @@
+[
+  {
+    "id": "document",
+    "version": "1.0"
+  },
+  {
+    "id": "medellin",
+    "name": "Medellín",
+    "polygon": {
+      "positions": {
+        "cartographicDegrees": [
+          -75.70, 6.15, 0,
+          -75.45, 6.15, 0,
+          -75.45, 6.35, 0,
+          -75.70, 6.35, 0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [255, 0, 0, 150]
+          }
+        }
+      },
+      "height": 0,
+      "extrudedHeight": 0
+    }
+  },
+  {
+    "id": "cali",
+    "name": "Cali",
+    "polygon": {
+      "positions": {
+        "cartographicDegrees": [
+          -76.65, 3.33, 0,
+          -76.40, 3.33, 0,
+          -76.40, 3.55, 0,
+          -76.65, 3.55, 0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [0, 255, 0, 150]
+          }
+        }
+      },
+      "height": 0,
+      "extrudedHeight": 0
+    }
+  },
+  {
+    "id": "barranquilla",
+    "name": "Barranquilla",
+    "polygon": {
+      "positions": {
+        "cartographicDegrees": [
+          -74.95, 10.85, 0,
+          -74.65, 10.85, 0,
+          -74.65, 11.10, 0,
+          -74.95, 11.10, 0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [0, 0, 255, 150]
+          }
+        }
+      },
+      "height": 0,
+      "extrudedHeight": 0
+    }
+  }
+]
