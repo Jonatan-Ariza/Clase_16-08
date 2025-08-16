@@ -1,90 +1,72 @@
 [
   {
     "id": "document",
-    "name": "Ciudades Colombia - Formas",
-    "version": "1.0",
-    "clock": {
-      "interval": "2025-08-15T00:00:00Z/2025-08-15T00:10:00Z",
-      "currentTime": "2025-08-15T00:00:00Z",
-      "multiplier": 30
-    }
+    "name": "Ciudades con formas",
+    "version": "1.0"
   },
-
   {
-    "id": "medellinCircle",
+    "id": "medellin",
     "name": "Medellín",
     "position": {
-      "cartographicDegrees": [-75.5812, 6.2442, 0]
+      "cartographicDegrees": [-75.5636, 6.2442, 0]
     },
     "ellipse": {
+      "semiMajorAxis": 3000,
+      "semiMinorAxis": 2000,
       "height": 0,
       "heightReference": "RELATIVE_TO_GROUND",
-      "semiMajorAxis": [
-        { "interval": "2025-08-15T00:00:00Z/2025-08-15T00:05:00Z", "number": 2000 },
-        { "interval": "2025-08-15T00:05:00Z/2025-08-15T00:10:00Z", "number": 4000 }
-      ],
-      "semiMinorAxis": [
-        { "interval": "2025-08-15T00:00:00Z/2025-08-15T00:05:00Z", "number": 2000 },
-        { "interval": "2025-08-15T00:05:00Z/2025-08-15T00:10:00Z", "number": 4000 }
-      ],
       "material": {
         "solidColor": {
-          "color": [
-            { "interval": "2025-08-15T00:00:00Z/2025-08-15T00:05:00Z", "rgba": [255, 0, 0, 160] },
-            { "interval": "2025-08-15T00:05:00Z/2025-08-15T00:10:00Z", "rgba": [255, 165, 0, 160] }
-          ]
+          "color": { "rgba": [255, 0, 0, 150] }
         }
-      },
-      "outline": true,
-      "outlineColor": { "rgba": [0, 0, 0, 255] }
+      }
     }
   },
-
   {
-    "id": "caliRectangle",
+    "id": "cali",
     "name": "Cali",
-    "rectangle": {
-      "coordinates": {
-        "wsenDegrees": [-76.5400, 3.4450, -76.5200, 3.4600]
-      },
-      "height": 0,
-      "heightReference": "RELATIVE_TO_GROUND",
-      "material": {
-        "solidColor": {
-          "color": { "rgba": [0, 128, 0, 150] }
-        }
-      },
-      "outline": true,
-      "outlineColor": { "rgba": [255, 255, 255, 255] }
-    }
-  },
-
-  {
-    "id": "barranquillaPolygon",
-    "name": "Barranquilla",
+    "position": {
+      "cartographicDegrees": [-76.5320, 3.4516, 0]
+    },
     "polygon": {
       "hierarchy": {
         "positions": {
           "cartographicDegrees": [
-            -74.7825, 10.9690, 0,
-            -74.7800, 10.9680, 0,
-            -74.7780, 10.9660, 0,
-            -74.7795, 10.9640, 0,
-            -74.7825, 10.9645, 0,
-            -74.7840, 10.9665, 0,
-            -74.7825, 10.9690, 0
+            -76.54, 3.44, 0,
+            -76.53, 3.44, 0,
+            -76.53, 3.46, 0,
+            -76.54, 3.46, 0,
+            -76.54, 3.44, 0
           ]
         }
       },
-      "height": 0,
-      "heightReference": "RELATIVE_TO_GROUND",
       "material": {
         "solidColor": {
-          "color": { "rgba": [0, 0, 255, 120] }
+          "color": { "rgba": [0, 255, 0, 150] }
         }
+      }
+    }
+  },
+  {
+    "id": "barranquilla",
+    "name": "Barranquilla",
+    "position": {
+      "cartographicDegrees": [-74.796, 10.9685, 0]
+    },
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -74.80, 10.96, 0,
+          -74.79, 10.97, 0,
+          -74.78, 10.96, 0
+        ]
       },
-      "outline": true,
-      "outlineColor": { "rgba": [255, 255, 255, 255] }
+      "width": 5,
+      "material": {
+        "solidColor": {
+          "color": { "rgba": [0, 0, 255, 200] }
+        }
+      }
     }
   }
 ]
