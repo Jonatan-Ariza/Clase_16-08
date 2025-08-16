@@ -1,0 +1,25 @@
+[
+  {
+    "id": "document",
+    "name": "Círculo fijo",
+    "version": "1.0"
+  },
+  {
+    "id": "circle1",
+    "name": "Círculo Bogotá",
+    "position": {
+      "cartographicDegrees": [-74.096, 4.629, 0]
+    },
+    "ellipse": {
+      "semiMajorAxis": 2000,
+      "semiMinorAxis": 2000,
+      "height": 0,
+      "heightReference": "RELATIVE_TO_GROUND",
+      "material": {
+        "solidColor": {
+          "color": { "rgba": [0, 0, 255, 150] }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "document",
+    "name": "Ejemplo CZML",
+    "version": "1.0",
+    "clock": {
+      "interval": "2025-08-01T00:00:00Z/2025-08-29T23:59:59Z",
+      "currentTime": "2025-08-01T01:00:00Z",
+      "multiplier": 90000
+    }
+  },
+  {
+    "id": "shape1",
+    "name": "Bogota",
+    "position": {
+      "cartographicDegrees": [-74.096, 4.629, 0]
+    },
+    "ellipse": {
+      "semiMinorAxis": 100000,
+      "semiMajorAxis": 100000,
+      "height": 0,
+      "heightReference": "RELATIVE_TO_GROUND",
+      "extrudedHeight": [
+        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 100 },
+        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 300 },
+        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 500 },
+        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 700 },
+        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 900 }
+      ],
+      "extrudedHeightReference": "RELATIVE_TO_GROUND",
+      "material": {
+        "solidColor": {
+          "color": { "rgba": [255, 0, 0, 100] }
+        }
+      }
+    }
+  }
+]
